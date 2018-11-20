@@ -1,6 +1,5 @@
 package testOne;
 
-import java.util.ArrayList;
 import java.util.Random;
 
 public class Conditionals {
@@ -24,15 +23,15 @@ public class Conditionals {
 		arrayNumbers(numbers);
 		
 		
-		//iteration arrays
+		//iteration arrays 1 + 2
 		for(int i = 0; i< numbers.length; i++ ) {
-		//	System.out.print(numbers[i]);
-			for(int j = 0; j < numbers[i]; j++) {
-				int arrayValue = numbers[j];
-				System.out.print(arrayValue);
-			}
-			
+		    System.out.println(numbers[i]);
 		}
+		
+		for(int j = 0; j < numbers.length ; j++) {
+			 numbers[j] = j *10;
+			 System.out.println(numbers[j]);
+			}
 				
     }
 		
