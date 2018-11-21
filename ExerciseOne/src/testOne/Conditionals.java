@@ -63,8 +63,6 @@ public class Conditionals {
     		return d;
     		}
        
-
-    	
 		if (c) {
 			d = a + b;
 		}
