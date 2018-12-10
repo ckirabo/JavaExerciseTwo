@@ -1,4 +1,4 @@
-package exerciseTwo;
+package blackJack;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package exerciseTwo;
+package uniqueSum;
 
 import java.util.Scanner;
 
